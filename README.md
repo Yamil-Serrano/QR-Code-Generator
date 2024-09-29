@@ -20,7 +20,7 @@ A simple desktop application for generating QR codes from links, built with Rust
 
 ## Pre-built Executable
 
-- Download the latest release from the [Releases](https://github.com/Yamil-Serrano/QR-Code-Generator/releases) page.
+- Download the latest release from the [Releases](https://github.com/Yamil-Serrano/QR-Code_Generator/releases) page.
 - Extract the downloaded file and run the executable.
 
 ### Building from Source (Optional)
