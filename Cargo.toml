@@ -1,0 +1,15 @@
+[package]
+name = "QR-Code-Generator"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+eframe = { version = "0.22.0", features = ["default_fonts", "glow", "persistence"] }
+qrcode-generator = "4.1.8"
+image = "0.24.6"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.9", features = ["winuser", "windef"] }
